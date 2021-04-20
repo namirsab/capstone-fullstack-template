@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "description": "Project template for a FullStack project with NodeJS, MongoDB and Mongoose for backend, and React for frontend",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prod:start-server": "node server.js",
+    "dev:start-server": "nodemon server.js",
+    "dev:start-client": "cd client && npm start",
+    "build-client": "cd client && npm run build"
   },
   "author": "Namir Sayed-Ahmad Baraza (https://namirsab.github.io)",
   "license": "MIT",
   "devDependencies": {
+    "nodemon": "^2.0.7",
     "prettier": "^2.2.1"
   }
 }
