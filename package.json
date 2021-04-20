@@ -6,12 +6,17 @@
     "prod:server:start": "node server.js",
     "dev:server:start": "nodemon server.js",
     "dev:client:start": "cd client && npm start",
-    "client:build": "cd client && npm run build"
+    "client:build": "cd client && npm run build",
+    "postinstall": "cd client && npm install"
   },
   "author": "Namir Sayed-Ahmad Baraza (https://namirsab.github.io)",
   "license": "MIT",
   "devDependencies": {
     "nodemon": "^2.0.7",
     "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
   }
 }
