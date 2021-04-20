@@ -1,0 +1,13 @@
+{
+  "name": "capstone-fullstack-template",
+  "version": "1.0.0",
+  "description": "Project template for a FullStack project with NodeJS, MongoDB and Mongoose for backend, and React for frontend",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Namir Sayed-Ahmad Baraza (https://namirsab.github.io)",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
+}
