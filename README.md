@@ -11,9 +11,10 @@ a fullstack application using:
 Keep in mind this is repository contains 2 npm packages:
 
 - One in the `/` folder
-- One in the `/client/` folder. This one was generated using `create-react-app`.
+- One in the `/client/` folder. This one was generated using [`create-react-app`](https://create-react-app.dev/).
 
 This means you have to be careful where you install new npm packages.
+Check the section "Installing npm packages" for more info.
 
 ## Usage
 
@@ -48,6 +49,12 @@ E.g, installing `react-router-dom`
 cd client
 npm install --save react-router-dom
 ```
+
+## Environment variables for the server side
+
+The project use the [`dotenv`](https://www.npmjs.com/package/dotenv) package to handle environment variables.
+This means you need to create a `.env` file and add the environmental variables needed.
+You can see which environmental variables you need to set checking the `.env.template` file.
 
 ## Extras
 
