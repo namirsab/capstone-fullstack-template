@@ -1,12 +1,12 @@
 {
   "name": "capstone-fullstack-template",
   "version": "1.0.0",
-  "description": "Project template for a FullStack project with NodeJS, MongoDB and Mongoose for backend, and React for frontend",
+  "description": "Project template for a FullStack project with NodeJS for backend and React for frontend",
   "scripts": {
-    "prod:start-server": "node server.js",
-    "dev:start-server": "nodemon server.js",
-    "dev:start-client": "cd client && npm start",
-    "build-client": "cd client && npm run build"
+    "prod:server:start": "node server.js",
+    "dev:server:start": "nodemon server.js",
+    "dev:client:start": "cd client && npm start",
+    "client:build": "cd client && npm run build"
   },
   "author": "Namir Sayed-Ahmad Baraza (https://namirsab.github.io)",
   "license": "MIT",
