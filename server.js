@@ -11,7 +11,7 @@ All your api endpoints should be prefixed with /api and be before the next ones
 If you have many endpoints, consider use Express Router for each set of endpoints
 */
 app.get("/api/hello-world", (req, res) => {
-  res.status(200).json("Hello World");
+  res.status(200).json("Hello Everyone");
 });
 
 if (process.env.NODE_ENV === "production") {
